@@ -1,4 +1,4 @@
-![](/img/imagenReadme.png)
+![](./img/imagenReadme)
 
 
 ### WEB CURSOS ONLINE
