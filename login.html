@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css"> 
+</head>
+<body>
+
+<header id="header" class="header">
+    <div class="container">
+        <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="four columns">
+                <img src="img/logo.png" id="logo" />
+            </div>
+            <div class="two columns u-pull-right" style="display: flex; align-items: center;">
+                <ul style="display: flex; align-items: center; padding: 0; margin: 0;">
+                    <li class="submenu" style="margin-right: 10px;">
+                        <div id="carrito" style="display: none;">
+                            <table id="lista-carrito" class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                            <img src="img/inicio-icon.png" id="img-inicio" alt="Inicio" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="form-container">
+        <h2>Iniciar Sesión</h2>
+        <form action="login.php" method="POST">
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <p style="text-align: center; margin-top: 20px;">
+            ¿No tienes cuenta? <a href="crear-cuenta.html">Crear Cuenta</a>
+        </p>
+    </div>
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="css/crearCuenta.css"> 
+</head>
+<body>
+
+<header id="header" class="header">
+    <div class="container">
+        <div class="row" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="four columns">
+                <img src="img/logo.png" id="logo" />
+            </div>
+            <div class="two columns u-pull-right" style="display: flex; align-items: center;">
+                <ul style="display: flex; align-items: center; padding: 0; margin: 0;">
+                    <li>
+                        <a href="index.html">
+                            <img src="img/inicio-icon.png" id="img-inicio" alt="Inicio" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="form-container">
+        <h2>Crear Cuenta</h2>
+        <form id="crear-cuenta-form">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" />
+                <p class="error-message" id="nombre-error"></p>
+            </div>
+            
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
+                <p class="error-message" id="nombre-error"></p>
+            </div>
+            <input type="submit" value="Aceptar">
+        </form>
+        <p style="text-align: center; margin-top: 20px;">
+            ¿Ya tienes cuenta? <a href="login.html">Iniciar Sesión</a>
+        </p>
+    </div>
+</div>
+
+<script type="module" src="js/app8.js"></script>
+
+</body>
+</html>
+

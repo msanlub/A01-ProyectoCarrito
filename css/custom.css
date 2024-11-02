@@ -63,6 +63,14 @@ ul {
   min-height: 400px;
   min-width: 300px;
 }
+
+#img-usuario {
+  width: 50px; 
+  height: auto;
+  cursor: pointer; 
+  margin-left: 10px; 
+}
+
 .vacio {
   padding: 10px;
   background-color: crimson;
