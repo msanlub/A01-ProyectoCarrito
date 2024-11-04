@@ -1,0 +1,19 @@
+.favorito-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.favorito-imagen {
+    width: 80px; /* Tamaño de la imagen */
+    height: auto;
+    margin-right: 15px; /* Espaciado entre la imagen y el texto */
+}
+
+.favorito-info {
+    flex-grow: 1; /* Permite que el contenedor de información crezca */
+}
