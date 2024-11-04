@@ -1,4 +1,4 @@
-![](./img/Captura desde 2024-11-04 21-16-15.png)
+![](./img/proyect.png)
 
 
 ### WEB CURSOS ONLINE
@@ -36,8 +36,19 @@ En esta actividad, he escogido el proyecto del carrito de curso ya que creo que 
 
 
 
-# Implementación visible
+# Implementación visible y codigo
 
+En el index he añadido algunos iconos para mejorar la experiencia de usuario y que pueda acceder a su login o a crear cuenta y a su lista de favoritos. Aunque a todo ello le falte desarrollo por falta de tiempo, la idea es que tenga que logearse para acceder a su cuenta lógicamente.
 
+![](./img/cabeceraIndex.png)
+
+También en cada curso de index he añadido el icono del corazon para agregar el curso a la base de datos en el almacen de favoritos.
+
+![](./img/proyect.png)
+
+Las pantallas de login o crear cuenta también llevan cabecera y siguen el estilo definido en el proyecto inicial
+
+![Crear cuenta](./img/crearCuenta.png)
+![Login](./img/inicioSesion.png)
 
 
